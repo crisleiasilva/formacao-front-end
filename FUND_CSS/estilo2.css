@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.bg {
+  background-color: black;
+  color: yellow;
+  padding:20px;
+  width: 400px;
+}
+
+.bg-2 {
+  background-color:rgb(163, 190, 240);
+  color:brown;
+  width: 200px;
+  padding:10px;
+}
+
+.bg-opacity {
+  background-color: greenyellow;
+  opacity:0.5;
+  width: 400px;
+  padding: 40px;
+  border-radius: 8px;
+}
