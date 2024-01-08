@@ -65,8 +65,28 @@ a {
   color:white;
 }
 
-
 .ret a:hover {
  color: #a11909;
   
+}
+.without-padding , .padding1 {
+  background-color: rgba(0, 0, 0, 0.493);
+  color:white;
+  
+}
+.padding1 {
+padding:10px;
+background-color: #e00a35;
+border: 5px double rgb(51, 197, 197);
+}
+.box-model {
+  background-color:#eeb6b096;
+  font-weight: 700;
+  width:200px;
+  height:100px ;
+  margin:20px;
+  padding: 15px 20px;
+  border:4px double #dc143c;
+  border-radius: 7px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.603);
 }

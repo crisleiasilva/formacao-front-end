@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+#box-model {
+  background-color: rgba(235, 74, 160, 0.308);
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  margin: 20px;
+  border:5px double dodgerblue;
+  border-radius: 8px;
+
+}
+.titulo {
+  color:crimson;
+  /*border: 2px solid black;*/
+  padding: 5px;
+  margin: auto;
+  outline: 3px solid black;
+}
