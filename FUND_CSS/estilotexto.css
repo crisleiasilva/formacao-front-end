@@ -27,3 +27,28 @@ background-color: rgba(0, 191, 255, 0.164);
   padding:10px 10px 10px 10px;
   
 }
+.fig {
+  background-color: rgba(255, 105, 180, 0.582);
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  border-radius: 50% 50%;
+  margin-top: 50px;
+}
+.text {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 100px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+a {
+  text-decoration:none; 
+  color:white;
+}
+a:hover {
+  color:crimson;
+}
