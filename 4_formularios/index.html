@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulários</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Formulários HTML</h2>
+  <form action="register.php" method="POST">
+    <div>
+      <label for="name">Nome:</label>
+        <input type="text">
+    </div>
+    <div>
+      <label>Idade:</label>
+        <input type="text" name="age">
+    </div>
+    <div>
+      <label for="age">Idade:</label>
+        <input type="text" name="age">
+    </div>
+    <div>
+      <label for="job">Selecione sua profissão:</label>
+      <select name="job">
+        <option value="programadora">Programadora</option>
+        <option value="analista">Analista Cloud</option>
+        <option value="tester">Tester/QA</option>
+        <option value="devops">DevOps</option>
+      </select>
+    </div>
+    <div>
+      <label for="contract">Você leu os termos do contrato?</label>
+      <select name="contract">
+        <option value="sim">Sim</option>
+        <option value="nao" selected>Não</option>
+      </select>
+      </div>
+      <div>
+        <label for="itens">Selecione os itens desejados:</label>
+        <select name="itens">
+          <option value="pera">Pera</option>
+          <option value="feijao">Feijão</option>
+          <option value="arroz">Arroz</option>
+          <option value="milho">Milho</option>
+      </select>
+      </div>
+      <div>
+        <label for="comment">Comentários:</label>
+        <textarea name="comment"></textarea>
+      </div>
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+</html>
