@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 body {
+  background-color: lavenderblush;
   padding-bottom: 500px;
 }
 
@@ -11,4 +12,10 @@ div {
 div input,
 div label {
   display: block;
+}
+
+.radio label,
+.radio input,
+.radio span  {
+ display:inline-block;
 }
