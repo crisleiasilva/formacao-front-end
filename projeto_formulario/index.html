@@ -21,17 +21,76 @@
         </p>
         <form>
         <div class="box-input">
-          <label for="title">Título do Anúncio <span class="required-field">*</span></label>
+          <label for="price">Preço <span class="required-field">*</span></label>
           <input 
-          type="text" 
-          name="title" 
-          id="title" 
+          type="number" 
+          name="price" 
+          id="price" 
           class="block" 
-          placeholder="Um título para anunciar o seu carro"
-          minlength="1"
-          maxlength="30"
+          placeholder="Defina o Preço"
           required
-          >
+          />
+          <div class="box-input">
+            <label for="description">Descrição <span class="required-field">*</span></label>
+            <textarea name="description" id="description" class="block" placeholder="Coloque aqui os detalhes do veículo"></textarea>
+          </div>
+          <div class="box-input">
+            <label for="brand">Marca <span class="required-field">*</span></label>
+            <input 
+            type="text" 
+            name="brand" 
+            id="brand" 
+            class="block" 
+            placeholder="Digite a marca do veículo"
+            required
+            />
+            <div class="box-input">
+              <label for="model">Modelo <span class="required-field">*</span></label>
+              <input 
+              type="text" 
+              name="model" 
+              id="model" 
+              class="block" 
+              placeholder="Digite o modelo do veículo"
+              required
+              /> 
+              <div class="box-input">
+                <label for="nileage">Kilometragem <span class="required-field">*</span></label>
+                <input 
+                type="number" 
+                name="nileage" 
+                id="nileage" 
+                class="block" 
+                placeholder="Digite a Kilometragem do veículo"
+                required
+                /> 
+                <div class="box-input">
+                  <label for="purchase">Data de Compra<span class="required-field">*</span></label>
+                  <input 
+                  type="date" 
+                  name="purchase" 
+                  id="purchase" 
+                  class="block" 
+                  required
+                  />
+                  <div class="box-input">
+                    <p>Tipo de Câmbio: <span class="required-field">*</span></p>
+                    <input 
+                    type="radio" id="manual" name="gear"> 
+                    <label for="manual">Manual</label>
+                     <input 
+                    type="radio" id="auto" name="gear"> 
+                    <label for="auto">Automático</label>
+                    <div class="optional-box">
+                      <p>Opcionais:</p>
+                     <ul class="optional-list">
+                      <li>
+                        <input type="checkbox" name="optional[]" id="airbag" value="airbag">
+                        <label for="airbag"></label>
+                      </li>
+                     </ul>
+
+                  
         </div>
         <input type="submit" value="Enviar">
         </form>
