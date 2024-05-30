@@ -1,0 +1,86 @@
+/*1- Flex*/
+body {
+  padding-bottom: 500px;
+}
+
+.flex {
+  display: flex;
+  background-color: aquamarine;
+  margin-bottom: 20px;
+}
+
+/*2 - Flex column*/
+.flex-column {
+  display: flex;
+  flex-direction:column ;
+  background-color: #ccc;
+  margin-bottom: 20px;
+}
+
+/*3 - Wrap*/
+.wrap {
+  display:flex ;
+  flex-wrap: wrap;
+  margin-bottom: 20px ;
+}
+
+.box {
+  height: 40px;
+  width:33% ;
+  border: 1px solid black;
+  
+}
+
+/* 4- Justify Content*/
+.center, 
+.space-around,
+.space-between,
+.end {
+  display: flex;
+  margin-bottom: 20px;
+  background-color: rgb(243, 195, 203);
+}
+
+.center .box,
+.space-around .box,
+.space-between .box,
+.end .box {
+  width: 50px;
+}
+
+.center {
+  justify-content:center ;
+}
+
+.space-around {
+  justify-content: space-around ;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.end {
+  justify-content: end;
+}
+
+/*5 - Align items*/
+.align-center, 
+.flex-end,
+.strech {
+  display: flex;
+  margin-bottom: 20px;
+  height:200px ;
+  border: 1px solid blue;
+}
+
+.align-center .box,
+.flex-end .box, 
+.strech .box {
+  width: 50px;
+}
+
+.align-center {
+  align-items: center;
+  justify-content: center;
+}
